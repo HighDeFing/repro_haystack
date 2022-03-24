@@ -10,6 +10,12 @@ Install haystack and requirements in env by:
 pip install -r -requirements.txt
 ```
 
+or/and
+
+```bash
+pip install farm-haystack numb unidecode pandas farm-haystack[ocr]
+```
+
 ### Elastic search docker
 
 We need docker for this.
@@ -28,3 +34,10 @@ docker start es01-test -a
 
 ### Upload the files
 
+Execute the python file:
+`repoducible_haystack/env/bin/python3 haystack_upload_files.py`
+
+### Do the test
+
+Execute the python file:
+`repoducible_haystack/env/bin/python3 haystack_test.py`
