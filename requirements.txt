@@ -1,0 +1,5 @@
+farm-haystack
+numba
+unidecode
+pandas
+farm-haystack[ocr]
